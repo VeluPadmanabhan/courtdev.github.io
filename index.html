@@ -3,20 +3,60 @@
         <title>Superior Court of California, Alameda County Web Site is down for maintenence</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <style>
-        body { text-align: center; padding: 150px; }
-        h1 { font-size: 30px; }
-        body { font: 20px Helvetica, sans-serif; color: #333; }
-        article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-        a { color: #dc8100; text-decoration: none; }
-        a:hover { color: #333; text-decoration: none; }
+        body { text-align: center; padding-top: 0px;margin-top: 0% }
+        @media (min-width: 768px){
+    body{ padding-top: 150px;  }
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 32px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+}
+
 </style>
     </head>
     <body>
-    <article>
-        <h1>Superior Court of California, County of Alameda Web Site is temporarily unavailable.</h1>
-        <p>We are currently performing scheduled maintenance. Site will be back soon.</p>
-        <p>We apologize for any inconvenience.</p>
-        <p>&mdash; <a href="mailto:AskRecordsManagement@alameda.courts.ca.gov">Maintenance Team</a></p>
-    </article>
+            <div class="container" style="margin-top:0%">
+                    <a href="mailto:AskRecordsManagement@alameda.courts.ca.gov"><img src="SiteMaintenance4.png" alt="Site Under Maintenance" ></a>
+        </div>        
+        
     </body>
 </html>
